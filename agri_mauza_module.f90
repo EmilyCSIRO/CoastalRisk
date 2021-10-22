@@ -1,4 +1,5 @@
 SUBROUTINE agri_mauza_module(saltM, wtlg, nummz, nummzM, nyear,t, numcrop, crop_yield, area_hh,  crop_r, Yhhmax_m)
+  ! Caculates crop production for each mauza based on salinity and waterlogging, and the crop ratio and yield in each mauza
   IMPLICIT NONE
   
   REAL, INTENT(IN) :: saltM(nummz), wtlg(nummz), crop_yield(numcrop),  area_hh(4),  crop_r(numcrop)
